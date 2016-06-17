@@ -1,4 +1,4 @@
-package com.wang.websocket.endpoints.configurators;
+package net.tinybrick.websocket.endpoints.configurators;
 
 import java.util.ArrayList;
 import java.util.Arrays;

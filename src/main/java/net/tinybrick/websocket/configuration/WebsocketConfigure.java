@@ -1,9 +1,9 @@
-package com.wang.websocket.configuration;
+package net.tinybrick.websocket.configuration;
 
 import java.security.Principal;
 
 import com.wang.thread.configure.ThreadConfig;
-import com.wang.websocket.endpoints.EchoServiceEndpoint;
+import net.tinybrick.websocket.endpoints.EchoServiceEndpoint;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +20,7 @@ import javax.websocket.server.HandshakeRequest;
 import javax.websocket.server.ServerContainer;
 import javax.websocket.server.ServerEndpointConfig;
 
-import com.wang.websocket.endpoints.configurators.SpringServerEndpointConfigBuilder;
+import net.tinybrick.websocket.endpoints.configurators.SpringServerEndpointConfigBuilder;
 /**
  * Created by wangji on 2016/5/30.
  */

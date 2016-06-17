@@ -1,4 +1,4 @@
-package com.wang.wbsocket.endpoint;
+package net.tinybrick.wbsocket.endpoint;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;

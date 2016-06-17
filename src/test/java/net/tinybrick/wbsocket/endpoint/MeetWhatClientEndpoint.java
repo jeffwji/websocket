@@ -1,4 +1,4 @@
-package com.wang.wbsocket.endpoint;
+package net.tinybrick.wbsocket.endpoint;
 
 import java.io.IOException;
 
@@ -16,9 +16,9 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.wang.wbsocket.endpoint.MeetWhatClientEndpoint.EndpointConfigurator;
-import com.wang.websocket.utils.codec.EndpointDecoder;
-import com.wang.websocket.utils.codec.EndpointEncoder;
+import net.tinybrick.wbsocket.endpoint.MeetWhatClientEndpoint.EndpointConfigurator;
+import net.tinybrick.websocket.utils.codec.EndpointDecoder;
+import net.tinybrick.websocket.utils.codec.EndpointEncoder;
 
 @ClientEndpoint(encoders = { EndpointEncoder.class }, decoders = { EndpointDecoder.class }, configurator = EndpointConfigurator.class)
 public class MeetWhatClientEndpoint {

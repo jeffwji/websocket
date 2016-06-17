@@ -1,4 +1,4 @@
-package com.wang.wbsocket.endpoint.it;
+package net.tinybrick.wbsocket.endpoint.it;
 
 import java.io.IOException;
 import java.net.URI;
@@ -12,15 +12,14 @@ import javax.websocket.WebSocketContainer;
 import javax.ws.rs.core.NewCookie;
 
 //import org.eclipse.jetty.websocket.jsr356.ClientContainer;
-import com.wang.wbsocket.endpoint.ClientEndpointConfigurator;
+import net.tinybrick.wbsocket.endpoint.ClientEndpointConfigurator;
+import net.tinybrick.wbsocket.endpoint.MeetWhatClientEndpoint;
 import org.json.JSONObject;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import com.wang.wbsocket.endpoint.MeetWhatClientEndpoint;
 
 public class WebsocketTest {
 	static final String WEBSOCKET_SERVICE_BASE_URI = "ws://localhost:8080/htche-websocket";

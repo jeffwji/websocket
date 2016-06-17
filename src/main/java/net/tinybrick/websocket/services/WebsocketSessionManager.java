@@ -1,4 +1,4 @@
-package com.wang.websocket.services;
+package net.tinybrick.websocket.services;
 
 import java.util.ArrayList;
 import java.util.List;

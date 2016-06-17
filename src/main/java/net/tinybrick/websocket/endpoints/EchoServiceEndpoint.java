@@ -1,4 +1,4 @@
-package com.wang.websocket.endpoints;
+package net.tinybrick.websocket.endpoints;
 
 import java.io.IOException;
 
@@ -8,10 +8,9 @@ import javax.websocket.OnMessage;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
 
+import net.tinybrick.websocket.utils.codec.EndpointDecoder;
+import net.tinybrick.websocket.utils.codec.EndpointEncoder;
 import org.json.JSONObject;
-
-import com.wang.websocket.utils.codec.EndpointDecoder;
-import com.wang.websocket.utils.codec.EndpointEncoder;
 
 @ServerEndpoint(value = "/echo", encoders = { EndpointEncoder.class }, decoders = { EndpointDecoder.class })
 public class EchoServiceEndpoint extends EndpointBase {

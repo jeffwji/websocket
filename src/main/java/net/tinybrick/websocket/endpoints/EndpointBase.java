@@ -1,4 +1,4 @@
-package com.wang.websocket.endpoints;
+package net.tinybrick.websocket.endpoints;
 
 import java.io.IOException;
 import java.util.Date;
@@ -21,8 +21,6 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import com.wang.websocket.services.WebsocketSessionManager;
 
 //import net.sf.ehcache.Cache;
 

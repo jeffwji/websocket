@@ -1,4 +1,4 @@
-package com.wang.websocket.utils.codec;
+package net.tinybrick.websocket.utils.codec;
 
 import javax.websocket.EncodeException;
 import javax.websocket.Encoder;
